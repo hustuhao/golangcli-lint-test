@@ -1,0 +1,2 @@
+# golangcli-lint-test/store
+store/parental_custody.go:90:30: Rows/Stmt/NamedStmt was not closed

@@ -1,0 +1,12 @@
+store/parental_custody.go:96:12: Error return value of `rows.Scan` is not checked (errcheck)
+		rows.Scan(&str)
+		         ^
+store/parental_custody.go:67:2: S1023: redundant `return` statement (gosimple)
+	return
+	^
+store/db/mysql.go:4:2: SA1019: "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details. (staticcheck)
+	"io/ioutil"
+	^
+store/db/mysql.go:66:3: SA4006: this value of `v` is never used (staticcheck)
+		v = reflect.ValueOf(s)
+		^
