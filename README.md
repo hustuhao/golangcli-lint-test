@@ -1,0 +1,1 @@
+# golangcli-lint-test
